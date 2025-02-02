@@ -45,7 +45,7 @@ const Hero = () => {
             Github
           </span>
           </Button></Link>
-        <Link to={user.resume && user.resume.url} target='_blank'>
+        <Link>
         <Button className='rounded-[30px] flex items-center gap-2 flex-row'>
           <span>
             <ExternalLink />
