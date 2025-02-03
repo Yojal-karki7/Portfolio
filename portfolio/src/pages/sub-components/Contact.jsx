@@ -17,7 +17,7 @@ const Contact = () => {
     setLoading(true);
     await axios
       .post(
-        "http://localhost:4000/api/v1/message/send",
+        "https://portfolio-backend-flax-sigma.vercel.app/api/v1/message/send",
         { senderName, subject, message },
         {
           withCredentials: true,

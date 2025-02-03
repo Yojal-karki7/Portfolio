@@ -18,7 +18,8 @@ dotenv.config({path: './config/config.env'})
 
 
 app.use(cors({
-    origin: [process.env.PORTFOLIO_URL, process.env.DASHBOARD_URL],
+    origin: ["https://portfolio-swart-two-42.vercel.app", 
+        "http://localhost:5175"],
     methods: ["GET","POST","DELETE", "PUT"],
     credentials: true,
 }));

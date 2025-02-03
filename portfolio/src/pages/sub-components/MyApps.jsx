@@ -7,7 +7,7 @@ const MyApps = () => {
   useEffect(() => {
     const getMyApps = async () => {
       const { data } = await axios.get(
-        "http://localhost:4000/api/v1/softwareapplication/getall",
+        "https://portfolio-backend-flax-sigma.vercel.app/api/v1/softwareapplication/getall",
         { withCredentials: true }
       );
       setApps(data.softwareApplications);

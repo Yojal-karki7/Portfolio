@@ -6,7 +6,7 @@ const About = () => {
 
   useEffect(()=>{
     const getMyProfile = async() => {
-      const response = await axios.get('http://localhost:4000/api/v1/user/me/portfolio', {withCredentials: true});
+      const response = await axios.get('https://portfolio-backend-flax-sigma.vercel.app/api/v1/user/me/portfolio', {withCredentials: true});
       setUser(response.data.user);
       console.log(response.data.user);
     }
