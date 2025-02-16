@@ -231,7 +231,7 @@ const Home = () => {
           </SheetContent>
         </Sheet>
         <div className="flex items-center gap-4 md:grow-0 sm:ml-16 sm:mt-5">
-          <img src={user && user.avatar && user.avatar.url} alt="avatar" className="w-20 h-20 rounded-full max-[900px]:hidden" />
+          <img src={user && user.avatar && user.avatar.url} alt="avatar" className="w-20 h-20 rounded-full max-[900px]:hidden object-cover" />
           <h1 className="text-4xl max-[900px]:text-2xl">Welcome back, {user.fullName}</h1>
         </div>
       </header>
