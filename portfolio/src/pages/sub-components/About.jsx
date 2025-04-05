@@ -30,7 +30,7 @@ const About = () => {
             <img src={user.avatar && user.avatar.url} alt={user.fullName}  className='bg-white p-2 sm:p-4 rotate-[25deg] h-[240px] sm:h-[340px] md:h=[350px] lg:h-[450px]'/>
           </div>
           <div className="flex justify-center flex-col tracking-[1px] text-xl gap-5">
-            <p>My name is Yojal. I will graduate in Computer Systems Engineering from University of Sunderland around 2027.I work as a web developer and freelancer.Allways eager to learn efficiently and effectively.</p>
+            <p>My name is Yojal. I will graduate in Computer Systems Engineering from University of Sunderland around 2027.I work as a web developer and freelancer.Always eager to learn efficiently and effectively.</p>
             <p>I have interest not only in technology but also in movies, anime, video game. I excel in meeting deadlines for my work.</p>
           </div>
         </div>
