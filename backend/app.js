@@ -19,7 +19,7 @@ dotenv.config({path: './config/config.env'})
 
 app.use(cors({
     origin: ["https://portfolio-swart-two-42.vercel.app", 
-            "http://localhost:5173"],
+                "http://localhost:5173"],
     methods: ["GET","POST","DELETE", "PUT"],
     credentials: true,
 }));
